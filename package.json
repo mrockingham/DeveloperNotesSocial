@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx concurrently \"tsc -w\" \"nodemon\"",
+    "server": "nodemon ts-node index.ts",
     "start": "nodemon",
     "build": "tsc",
     "watch": "tsc -w",
